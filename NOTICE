@@ -1,0 +1,13 @@
+SENTINELGO
+Copyright (c) 2026 Parrish Lyon. All rights reserved.
+Owner watermark: PL-SENTINELGO-20260914
+Canonical repository: https://github.com/plyon-git/SENTINELGO
+
+This Go rendition was prepared at Parrish Lyon's direction from supplied
+SENTINEL files and the backend snapshot identified in docs/PORTING.md.
+The original supplied Python generator identifies its author as
+"Ledgewell Data Team"; that source attribution is retained here.
+
+Public repository visibility does not add an open-source license to this
+code. Third-party and pre-existing rights/notices are not overridden by
+these identifiers. This notice does not adjudicate source ownership.

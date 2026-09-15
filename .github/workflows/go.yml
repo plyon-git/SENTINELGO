@@ -1,0 +1,23 @@
+# Parrish Lyon | PL-SENTINELGO-20260914
+name: SENTINELGO checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff
+        with:
+          go-version: stable
+          cache: false
+      - run: go test -race ./...
+      - run: go vet ./...
+      - run: node --check web/app.js
+      - run: mkdir -p bin && go build -trimpath -o bin/sentinelgo ./cmd/sentinelgo
+      - run: ./bin/sentinelgo verify -root .

@@ -1,0 +1,10 @@
+# Parrish Lyon | PL-SENTINELGO-20260914
+/bin/
+/dist/
+*.csv
+analysis*.json
+*.log
+.env
+.env.*
+coverage.out
+.DS_Store

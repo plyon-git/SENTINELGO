@@ -1,0 +1,27 @@
+{
+  "files": {
+    ".gitattributes": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+    ".github/CODEOWNERS": "0d7e4add5e62343a8ee099323d3f945021438e87d0e039f6649ac8f6fccdf420",
+    ".github/workflows/go.yml": "aacdd67633739728f0dabe3052c7d05c4ceab75f7fd96896077d6e556d0c8f41",
+    ".gitignore": "5f537f1b34aaf0b0336341106ce22d475b21a7e411355eee8c5f0a89fc69dbc1",
+    "NOTICE": "1a5538e18de278036fb51a9a32bd2587c0ed6029ddbd6cd73525947c4618e960",
+    "README.md": "0aa7285e84bcc3411597cd9b258c95cf93bc866292c240a8434893fe10abfe31",
+    "cmd/sentinelgo/main.go": "9ebf8228b716b5d548488a7a5d9b7016db52aaf9bc9431d1ef2e197259c33cb8",
+    "config.go": "747e4912228044cb68153607036df5eca21eaa48c933768d7f2c4472f04b86b8",
+    "csv.go": "0b16912d52e39fdd42dcb0d54b14db673bad1f4c0688772d42d6d147fbbd1bb6",
+    "docs/PORTING.md": "17f1fac2577f015924bb6a308e6b9e0f19eff693ed504644ddb1888a7ba259d6",
+    "docs/SECURITY.md": "03f0958ea4f6c0e04ba5a2104b58205498e3a15eb0862e0992f68cd36f984bc4",
+    "docs/VALIDATION.md": "2fc95a29d00449eb4d908f099981a61f12551fb1fb012c8b5633c8c5c60efe55",
+    "engine.go": "f087675cd24c5f82bafe6619499cfc771d5288cc12b2356e3c663270d7077f31",
+    "generator.go": "e5d94e0063b7ff41c03cec9bad3b6a57003eaab3fa3788d2a3d109e6cf87820e",
+    "go.mod": "b98a0cdba4f6287fead4fe34b0860d7bfb4ed748d91de5374d56a6001d893a29",
+    "identity.go": "354d0580c84d448f08f1c7d9e33641296a26fcaaccfae4d9fe973825b09c594a",
+    "sentinel_test.go": "bb6be60390a8e606b145d60b5311034782f81d35420447d04eb9addcb2e4e812",
+    "server.go": "f4a6dd621f37354b037a6b006731a5337deed253d6c4db2ee8cda96c708d57d3",
+    "web/app.js": "0bebe7478bca9a0cb60a7d801f500fa48bd79dae64b160a149e65503ee5b0ef8",
+    "web/index.html": "119f225c4c9b3a18fc12bce2a0a14f07ca12b55e7153c64b7ea36c87c017414d",
+    "web/style.css": "ee10bf68bb4c3ebb9835876cca74c4b8e6162125971826d39fbebb4576d452e7"
+  },
+  "owner": "Parrish Lyon",
+  "watermark": "PL-SENTINELGO-20260914"
+}
